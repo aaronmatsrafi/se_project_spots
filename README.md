@@ -1,5 +1,16 @@
 # Project 3: Spots
 
+## features
+
+- This app displays several cards in a social media style
+- The images size adapts depending on the screen size
+- This app displays the user information
+
+## Technologies
+
+- CSS
+- HTML
+
 ### Overview
 
 - Intro
@@ -23,3 +34,7 @@ if u want to see my live site here is the link
 https://aaronmatsrafi.github.io/se_project_coffeeshop/
 
 Good luck and have fun!
+
+
+## presentation video
+[spo])

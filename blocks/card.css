@@ -26,17 +26,27 @@
 }
 
 .card__title {
-  margin-top: 12px;
+   margin: 0 ;
   font-weight: 500;
+   text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  max-width: 353px;
 }
 
 .card__content {
+  margin-top: 12px;
   display: flex;
   align-items: center;
   justify-content: space-between;
 }
 
 @media screen and (max-width: 627px) {
+
+card__title {
+    max-width: 235px;
+  }
+
   .card__image {
     height: 288px;
     width: 288px;
