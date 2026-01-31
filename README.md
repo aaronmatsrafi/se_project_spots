@@ -36,5 +36,10 @@ https://aaronmatsrafi.github.io/se_project_coffeeshop/
 Good luck and have fun!
 
 
-## presentation video
-[spo])
+
+
+
+## Project Pitch Video
+ 
+ Check out [this video](https://www.loom.com/share/ff4ccdc115de48ceb8ed4f2be4dfa8f8), where I describe my 
+ project and some challenges I faced while building it.
