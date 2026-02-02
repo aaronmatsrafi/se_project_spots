@@ -32,6 +32,7 @@
   white-space: nowrap;
   overflow: hidden;
   max-width: 353px;
+  font-size: 20px;
 }
 
 .card__content {
@@ -46,6 +47,7 @@
 card__title {
     max-width: 235px;
     font-size: 20px;
+    
   }
 
   .card__image {
