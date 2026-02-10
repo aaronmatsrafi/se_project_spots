@@ -13,14 +13,14 @@ padding: 10px;
 opacity: 0;
 }
 
-.modal_is-opened{
+.modal__is-opened{
 visibility: visible;
 opacity: 1;
 
 
 }
 
-.modal_container{
+.modal__container{
 max-width: 730px;
 width: 100%;
 border-radius: 8px;
@@ -29,7 +29,7 @@ padding: 32px 50px;
 position: relative;
 }
 
-.modal_close-btn{
+.modal__close-btn{
 position: absolute;
 top: 32px;
 right: 50px;
@@ -41,13 +41,13 @@ border: none;
 
 }
 
-.modal_title{
+.modal__title{
 margin: 0 0 32px;
 
 
 }
 
-.modal_form{
+.modal__form{
     display: flex;
     flex-direction: column;
 
@@ -55,7 +55,7 @@ margin: 0 0 32px;
 
 }
 
-.modal_label{
+.modal__label{
 display: flex;
 flex-direction: column;
 margin: 0 0 32px;
@@ -64,19 +64,19 @@ margin: 0 0 32px;
 
 }
 
-.modal_input{
+.modal__input{
 margin: 8px 0 0;
 height: 52px;
 
 }
 
-.modal_input::placeholder{
+.modal__input::placeholder{
 color:#2121214D;
 
 
 }
 
-.modal_submit-btn{
+.modal__submit-btn{
 max-width: 156px;
 height: 52px;
 border-radius: 8px;
