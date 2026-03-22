@@ -6,8 +6,8 @@ const editProfileCloseBtn = editProfileModal.querySelector(".modal__close-btn")
 
 
 const newPostBtn = document.queryselector (".profile__new-post-btn")
-const newPostModal = Document.querySelector (".#new-post-modal")
-const newPostCloseBtn = newPostModal.querySelector {".modal__close-btn"}
+const newPostModal = document.querySelector (".#new-post-modal")
+const newPostCloseBtn = newPostModal.querySelector (".modal__close-btn")
 
 
 editProfileBtn.addEventListener("click", function () {
