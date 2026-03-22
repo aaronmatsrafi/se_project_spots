@@ -1,143 +1,182 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="a website that works with any device scales"
+    />
+    <meta name="author" content="aaronmoshematsrafi" />
+    <meta name="kaywords" content="html, css, ???" />
+    <link rel="stylesheet" href="./pages/index.css" />
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
+    <title>myresponsivedesignwebsite</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta name="description" content="a website that works with any device scales" />
-  <meta name="author" content="aaronmoshematsrafi" />
-  <meta name="kaywords" content="html, css, ???" />
-  <link rel="stylesheet" href="./pages/index.css" />
-  <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-  <title>myresponsivedesignwebsite</title>
-</head>
+  <body>
+    <div class="page">
+      <header class="header">
+        <img
+          src="./images/spots-images/Logo.svg"
+          alt="spot logo"
+          class="header__logo"
+        />
+      </header>
+      <main class="content">
+        <section class="profile">
+          <img
+            src="./images/spots-images/avatar.jpg"
+            alt=" bessie colman"
+            class="profile__avatar"
+          />
+          <div class="profile__column">
+            <h1 class="profile__name">bessie colman</h1>
+            <p class="profile__description">civil aviator</p>
 
-<body>
-  <div class="page">
-    <header class="header">
-      <img src="./images/spots-images/Logo.svg" alt="spot logo" class="header__logo" />
-    </header>
-    <main class="content">
-      <section class="profile">
-
-
-        <img src="./images/spots-images/avatar.jpg" alt=" bessie colman" class="profile__avatar">
-        <div class="profile__column">
-          <h1 class="profile__name">bessie colman</h1>
-          <p class="profile__description">civil aviator</p>
-
-          <button type="button" class="profile__edit-btn">
-            <img src="./images/spots-images/pencil.svg" alt="pencil icon" class="profile__edit-icon" />
-            Edit profile
+            <button type="button" class="profile__edit-btn">
+              <img
+                src="./images/spots-images/pencil.svg"
+                alt="pencil icon"
+                class="profile__edit-icon"
+              />
+              Edit profile
+            </button>
+          </div>
+          <button type="button" class="profile__add-btn">
+            <img
+              src="./images/spots-images/Plus.svg"
+              alt="plus icon"
+              class="profile__edit-icon"
+            />
+            New Post
           </button>
+        </section>
+        <section class="cards">
+          <ul class="cards__list">
+            <li class="card">
+              <img
+                src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="val thorens"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">val thorens</h2>
+                <button type="butten" class="card__like-button"></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="val thorens"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">val thorens</h2>
+                <button type="butten" class="card__like-button"></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="val thorens"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">val thorens</h2>
+                <button type="butten" class="card__like-button"></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="val thorens"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">val thorens</h2>
+                <button type="butten" class="card__like-button"></button>
+              </div>
+            </li>
+
+            <li class="card">
+              <img
+                src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg"
+                alt="val thorens"
+                class="card__image"
+              />
+              <div class="card__content">
+                <h2 class="card__title">val thorens</h2>
+                <button type="butten" class="card__like-button"></button>
+              </div>
+            </li>
+          </ul>
+        </section>
+      </main>
+      <footer class="footer">
+        <p class="footer__copyright">2025 © Spots</p>
+      </footer>
+
+      <div class="modal" id="edit-profile-modal">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn"></button>
+          <h2 class="modal__title">edit profile</h2>
+          <form class="modal__form">
+            <label for="profile-name-input" class="modal__label"
+              >name
+              <input
+                id="profile-name-input"
+                type="text"
+                class="modal__input"
+                placeholder="type your name"
+              />
+            </label>
+
+            <label for="profile-description-input" class="modal__label"
+              >description
+              <input
+                id="profile-description-input"
+                type="text"
+                class="modal__input"
+                placeholder="describe yourself"
+              />
+            </label>
+            <button type="submit" class="modal__submit-btn">save</button>
+          </form>
         </div>
-        <button type="button" class="profile__add-btn">
-          <img src="./images/spots-images/Plus.svg" alt="plus icon" class="profile__edit-icon" />
-          New Post
-        </button>
-      </section>
-      <section class="cards">
-        <ul class="cards__list">
-          <li class="card">
-            <img src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="val thorens"
-              class="card__image" />
-            <div class="card__content">
-              <h2 class="card__title">val thorens</h2>
-              <button type="butten" class="card__like-button">
-              </button>
-          </li>
+      </div>
+      <div class="modal" id="new-post-modal">
+        <div class="modal__container">
+          <button type="button" class="modal__close-btn"></button>
+          <h2 class="modal__title">new post</h2>
+          <form class="modal__form">
+            <label for="card-image-input" class="modal__label"
+              >image link
+              <input
+                id="card-image-input"
+                type="url"
+                class="modal__input"
+                placeholder=" place a link to the picture"
+              />
+            </label>
 
-          <li class="card">
-            <img src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="val thorens"
-              class="card__image" />
-            <div class="card__content">
-              <h2 class="card__title">val thorens</h2>
-              <button type="butten" class="card__like-button">
-              </button>
-            </div>
-
-          </li>
-
-
-          <li class="card">
-            <img src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="val thorens"
-              class="card__image" />
-            <div class="card__content">
-              <h2 class="card__title">val thorens</h2>
-              <button type="butten" class="card__like-button">
-              </button>
-            </div>
-          </li>
-
-
-          <li class="card">
-            <img src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="val thorens"
-              class="card__image" />
-            <div class="card__content">
-              <h2 class="card__title">val thorens</h2>
-              <button type="butten" class="card__like-button"></button>
-            </div>
-          </li>
-
-          <li class="card">
-            <img src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg" alt="val thorens"
-              class="card__image" />
-            <div class="card__content">
-              <h2 class="card__title">val thorens</h2>
-              <button type="butten" class="card__like-button">
-              </button>
-            </div>
-          </li>
-        </ul>
-
-      </section>
-    </main>
-    <footer class="footer"><p class="footer__copyright">2025 © Spots</p></footer>
-
-    <div class="modal " id="edit-profile-modal">
-
-      <div class="modal__container">
-<button  type="button" class="modal__close-btn"></button>
-<h2 class="modal__title">edit profile</h2>
-<form class="modal__form">
-
-  <label for="profile-name-input" class="modal__label">name
-    <input  id="profile-name-input"  type="text" class="modal__input"
-    placeholder="type your name">
-  </label>
-
-<label for="profile-description-input" class="modal__label">description
-    <input  id="profile-description-input"  type="text" class="modal__input"
-    placeholder="describe yourself">
-    
-  </label>
-<button type="submit"   class="modal__submit-btn">save</button>
-</form>
+            <label for="card-caption-input" class="modal__label"
+              >caption
+              <input
+                id="card-caption-input"
+                type=""
+                class="modal__input"
+                placeholder="type your caption"
+              />
+            </label>
+            <button type="submit" class="modal__submit-btn">save</button>
+          </form>
+        </div>
       </div>
     </div>
-    <div class="modal" id="new-post-modal">
-
-      <div class="modal__container">
-<button  type="button" class="modal__close-btn"></button>
-<h2 class="modal__title">new post</h2>
-<form class="modal__form">
-
-  <label for="card-image-input" class="modal__label">image link
-    <input  id="card-image-input"  type="url" class="modal__input"
-    placeholder=" place a link to the picture">
-  </label>
-
-<label for="card-caption-input" class="modal__label">caption
-    <input  id="card-caption-input"  type="" class="modal__input"
-    placeholder="type your caption">
-    
-  </label>
-<button type="submit"   class="modal__submit-btn">save</button>
-</form>
-      </div>
-    </div>
-  </div>
-  <script  src="./scripts/index.js"></script>
-</body>
-
+    <script src="./scripts/index.js"></script>
+  </body>
 </html>
