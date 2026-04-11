@@ -11,6 +11,8 @@
   align-items: center;
   padding: 10px;
   opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3 ease;
 }
 
 .modal_is-opened {
