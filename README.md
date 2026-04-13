@@ -31,7 +31,7 @@ The way you'll do this at work is by exporting images directly from Figma — we
 
 **site**
 if u want to see my live site here is the link
-https://aaronmatsrafi.github.io/se_project_coffeeshop/
+https://aaronmatsrafi.github.io/se_project_spots/
 
 Good luck and have fun!
 

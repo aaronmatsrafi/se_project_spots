@@ -1,5 +1,5 @@
 .modal {
-  visibility: hidden;
+  
   background-color: #00000080;
   position: fixed;
   top: 0;
@@ -9,10 +9,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 10px;
+  padding: 10px;g
   opacity: 0;
   visibility: hidden;
-  transition: opacity 0.3 ease;
+  transition: opacity 0.3s ease;
+  visibility: 0s linear 0.3s;
 }
 
 .modal_is-opened {
@@ -37,7 +38,16 @@
   height: 40px;
   background: url(../images/spots-images/Close_Icon.svg);
   border: none;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
 }
+
+.modal__close-btn:hover,
+.modal__close-btn:focus-visible{
+
+  opacity: 0.9;
+}
+
 
 .modal__title {
   margin: 0 0 32px;
@@ -69,4 +79,30 @@
   border-radius: 8px;
   background-color: #212121;
   color: #fcf5e5;
+  cursor: pointer;
+  transition: opacity 0.2 ease;
+}
+
+.modal__submit-btn:hover {
+
+  opacity: o.8;
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+
+.modal__container {
+
+  padding: 22px 12px 12px;
+}
+
+.modal__close-btn {
+
+  top: 22px;
+  right: 12px;
+}
+
+
 }

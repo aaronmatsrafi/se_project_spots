@@ -20,7 +20,7 @@
 
 .profile__name {
   margin: 0 0 12px;
-  font-weight: 500px;
+  font-weight: 500;
   font-size: 32px;
   line-height: 1;
 max-width: 420px;
@@ -129,4 +129,15 @@ max-width: 420px;
   text-overflow: ellipsis;
   -webkit-line-clamp: 3;
   -webkit-box-orient: vertical;
+}
+
+
+@media  screen and (max-wisth 480px)
+ {
+  .profile__columnn 
+  {
+
+    margin : 0 0 20px;
+  }
+  
 }
