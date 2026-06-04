@@ -37,6 +37,7 @@ openModal (editProfileModal)
 
 newPostCloseBtn.addEventListener("click", function () {
   closeModal (editProfileModal);
+});
 
 newPostForm.addEventListener("submit", function () {
   evt.preventDefault();
