@@ -32,12 +32,12 @@ editProfileCloseBtn.addEventListener("click", function () {
 });
  
 newPostBtn.addEventListener("click", function () {
-openModal (editProfileModal)
+openModal (newPostModal)
 });
 
 newPostCloseBtn.addEventListener("click", function () {
   closeModal (editProfileModal);
-
+});
 newPostForm.addEventListener("submit", function () {
   evt.preventDefault();
   console.log(cardImageInput.value);
