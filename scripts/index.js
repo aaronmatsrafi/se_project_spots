@@ -36,14 +36,15 @@ openModal (newPostModal)
 });
 
 newPostCloseBtn.addEventListener("click", function () {
-  closeModal (editProfileModal);
+  closeModal (newPostModal);
 });
 
 
-newPostForm.addEventListener("submit", function () {
+newPostForm.addEventListener("submit", function (evt) {
   evt.preventDefault();
   console.log(cardImageInput.value);
   console.log(cardCaptionInput.value);
+  newPostForm.reset();
 closeModal (editProfileModal);
 });
 
