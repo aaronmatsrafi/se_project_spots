@@ -45,7 +45,7 @@ newPostForm.addEventListener("submit", function (evt) {
   console.log(cardImageInput.value);
   console.log(cardCaptionInput.value);
   newPostForm.reset();
-closeModal (editProfileModal);
+closeModal (newPostModal);
 });
 
 
