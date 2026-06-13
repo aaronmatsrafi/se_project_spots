@@ -1,4 +1,4 @@
-const initialCards[
+const initialCards =   [
 
 {
 name: "Val Thorens"
@@ -27,7 +27,7 @@ name: "Mountain house"
 link: "https://practicum-content.s3.us-west-1.amazonaws.com/software-engineer/spots/6-photo-by-moritz-feldmann-from-pexels.jp",
 },
 
-]
+];
 
 
 
@@ -94,7 +94,7 @@ closeModal (editProfileModal);
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
 initialCards.forEach(funcion (item)  {
-console.log(item.name);
+console.log(item.name); 
 console.log (item.link);
 
 });
