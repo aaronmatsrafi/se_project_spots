@@ -93,7 +93,7 @@ closeModal (editProfileModal);
 
 editProfileForm.addEventListener("submit", handleEditProfileSubmit);
 
-initialCards.forEach(funcion (item)  {
+initialCards.forEach(function (item)  {
 console.log(item.name); 
 console.log (item.link);
 
