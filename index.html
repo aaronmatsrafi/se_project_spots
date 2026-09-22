@@ -50,81 +50,49 @@
               class="profile__edit-icon"
             />
 
-
             New Post
           </button>
         </section>
         <section class="cards">
           <ul class="cards__list">
-            <li class="card">
-              <img
-                src="./images/spots-images/1-photo-by-moritz-feldmann-from-pexels.jpg"
-                alt="val thorens"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">val thorens</h2>
-                <button type="button" class="card__like-button" aria-label ="like card"   ></button>
-              </div>
-            </li>
-
-            <li class="card">
-              <img
-                src="./images/spots-images/2-photo-by-ceiline-from-pexels.jpg"
-                alt="val thorens"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">
-Restaurant terrace
-</h2>
-                <button type="button" class="card__like-button"   aria-label ="like card"></button>
-              </div>
-            </li>
-
-            <li class="card">
-              <img
-                src="./images/spots-images/3-photo-by-tubanur-dogan-from-pexels.jpg"
-                alt="val thorens"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">an outdoor cafe</h2>
-                <button type="button" class="card__like-button"  aria-label ="like card"  ></button>
-              </div>
-            </li>
-
-            <li class="card">
-              <img
-                src="./images/spots-images/4-photo-by-maurice-laschet-from-pexels.jpg"
-                alt="val thorens"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">
-A very long bridge, over the forest...
-</h2>
-                <button type="button" class="card__like-button"    aria-label ="like card"></button>
-              </div>
-            </li>
-
-            <li class="card">
-              <img
-                src="./images/spots-images/5-photo-by-van-anh-nguyen-from-pexels.jpg"
-                alt="val thorens"
-                class="card__image"
-              />
-              <div class="card__content">
-                <h2 class="card__title">tunnel with morning light</h2>
-                <button type="butten" class="card__like-button"></button>
-              </div>
-            </li>
+            <template id="card-template">
+              <li class="card">
+                <img src="#" alt="" class="card__image" />
+                <button
+                type ="button"
+                class ="card__delete-button"
+                aria-label="delete card"></button>
+                <div class="card__content">
+                  <h2 class="card__title"></h2>
+                  <button
+                    type="button"
+                    class="card__like-button"
+                    aria-label="like card"
+                  ></button>
+                </div>
+              </li>
+            </template>
           </ul>
         </section>
       </main>
       <footer class="footer">
         <p class="footer__copyright">2025 © Spots</p>
       </footer>
+<div class="modal modal_is-opened" id="preview-modal">
+  <div class="modal__preview">
+    <button
+      type="button"
+      class="modal__close-btn"
+      aria-label="Close preview"
+    ></button>
+
+    <img class="modal__image" src="" alt="" />
+
+    <p class="modal__caption"></p>
+  </div>
+</div>
+
+<div class="modal" id="edit-profile-modal">
 
       <div class="modal" id="edit-profile-modal">
         <div class="modal__container">

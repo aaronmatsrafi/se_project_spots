@@ -114,3 +114,23 @@
 
 
 }
+
+
+
+.modal__preview {
+  position: relative;
+}
+
+.modal__image {
+  display: block;
+  max-width: 80vw;
+  max-height: 80vh;
+  object-fit: contain;
+}
+
+.modal__caption {
+  margin: 8px 0 0;
+  color: #fff;
+  font-size: 12px;
+  line-height: 15px;
+}
