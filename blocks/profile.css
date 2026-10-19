@@ -132,7 +132,7 @@ max-width: 420px;
 }
 
 
-@media  screen and (max-wisth 480px)
+@media  screen and (max-width: 480px)
  {
   .profile__columnn 
   {

@@ -23,6 +23,7 @@
           class="header__logo"
         />
       </header>
+
       <main class="content">
         <section class="profile">
           <img
@@ -59,9 +60,10 @@
               <li class="card">
                 <img src="#" alt="" class="card__image" />
                 <button
-                type ="button"
-                class ="card__delete-button"
-                aria-label="delete card"></button>
+                  type="button"
+                  class="card__delete-button"
+                  aria-label="delete card"
+                ></button>
                 <div class="card__content">
                   <h2 class="card__title"></h2>
                   <button
@@ -78,21 +80,19 @@
       <footer class="footer">
         <p class="footer__copyright">2025 © Spots</p>
       </footer>
-<div class="modal modal_is-opened" id="preview-modal">
-  <div class="modal__preview">
-    <button
-      type="button"
-      class="modal__close-btn"
-      aria-label="Close preview"
-    ></button>
+      <div class="modal" id="preview-modal">
+        <div class="modal__preview">
+          <button
+            type="button"
+            class="modal__close-btn"
+            aria-label="Close preview"
+          ></button>
 
-    <img class="modal__image" src="" alt="" />
+          <img class="modal__image" src="#" alt="" />
 
-    <p class="modal__caption"></p>
-  </div>
-</div>
-
-<div class="modal" id="edit-profile-modal">
+          <p class="modal__caption"></p>
+        </div>
+      </div>
 
       <div class="modal" id="edit-profile-modal">
         <div class="modal__container">
@@ -130,6 +130,7 @@
             <label for="card-image-input" class="modal__label"
               >image link
               <input
+              required
                 id="card-image-input"
                 type="url"
                 class="modal__input"

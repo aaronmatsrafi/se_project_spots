@@ -8,6 +8,7 @@
   object-fit: cover;
   display: block;
   border-radius: 8px;
+  cursor: pointer;
 }
 
 .card__like-button {
@@ -16,9 +17,16 @@
   height: 20px;
   border: none;
   background-color: transparent;
-  opacity: 40%;
+  opacity: 0.4;
   margin-top: 0;
+  background-repeat: no-repeat;
 }
+
+.card__like-button_active{
+
+background-image: url(../images/spots-images/redheart.svg);
+}
+
 
 .card__like-button:hover {
   opacity: 1;
@@ -40,6 +48,22 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+
+}
+
+
+.card__delete-button {
+top: 10px;
+right: 10px; 
+position: absolute;
+border: none;
+background-color: transparent;
+height: 32px;
+width: 32px;
+}
+
+.card__delete-button:hover {
+cursor: pointer;
 }
 
 @media screen and (max-width: 627px) {

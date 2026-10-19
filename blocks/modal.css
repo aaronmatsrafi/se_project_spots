@@ -84,7 +84,7 @@
   background-color: #212121;
   color: #fcf5e5;
   cursor: pointer;
-  transition: opacity 0.2 ease;
+  transition: opacity 0.2s ease;
 }
 
 .modal__submit-btn:hover {
